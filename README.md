@@ -64,7 +64,7 @@ Copy
 Edit
 tmux attach
 
-**Method 3**: Run Django Server in the Background - **(Work on two separate terminals BUT ONE SCREEN SHALL BE HIDDEN** In this particular case, CELERY screen shall be hidden.
+**Method 3**: Run Django Server in the Background - **(Work on two separate terminals BUT ONE SCREEN SHALL BE HIDDEN)** In this particular case, CELERY screen shall be hidden.
 If you don't want to open a new terminal, you can run Celery in the background and free up the terminal:
 
 Stop Celery (Ctrl + C) if it’s running in the foreground.
@@ -83,3 +83,11 @@ bash
 Copy
 Edit
 python manage.py runserver
+
+
+
+
+Problem with current venv:
+
+deactivate
+rm -rf <current.venv>

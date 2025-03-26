@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/dci-student/P24-E04/PROJECT IDEAS/video_enhancement_tools/.videovenv/bin/python3" "$0" "$@"
-' '''
+#!/home/dci-student/P24-E04/PROJECTS/video_enhancement_tools/.videovenv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
